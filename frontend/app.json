@@ -1,4 +1,40 @@
 {
-  "name": "CCApp",
-  "displayName": "CCApp"
+  "name": "main",
+  "displayName": "CCApp",
+  "expo": {
+    "name": "CCApp",
+    "slug": "ccapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "48.0.0",
+    "platforms": ["ios", "android"],
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.ccapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.ccapp"
+    },
+    "experiments": {
+      "newArchEnabled": true
+    }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+  }
 }
